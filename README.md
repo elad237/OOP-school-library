@@ -1,5 +1,6 @@
 <!-- TABLE OF CONTENTS -->
 
+
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -82,6 +83,7 @@ To run the project, execute the following command:
 
 <!-- AUTHORS -->
 
+
 ## 👥 Author <a name="author"></a>
 
 👤 **Author**
@@ -102,8 +104,8 @@ To run the project, execute the following command:
 - **Project 3: set up associations.**
 - **Project 4: add basic UI.**
 - **Project 5: refactor your code.**
-- **Project 6: preserve data.**
-- **Project 7: unit tests.**
+- **Project 6: preserved data.**
+- **Project 7: unit tests. **
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
