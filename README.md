@@ -104,8 +104,8 @@ To run the project, execute the following command:
 -  [x] Project 3: set up associations.
 -  [x] Project 4: add basic UI.
 -  [x] Project 5: refactor your code.
-- **Project 6: preserved data.**
-- **Project 7: unit tests. **
+- [x]   Project 6: preserved data.**
+- [x]  Project 7: unit tests. **
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
