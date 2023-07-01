@@ -101,9 +101,9 @@ To run the project, execute the following command:
 
 - [x] Project 1: add Person, Student, and Teacher classes.
 - [x] Project 2: use the "Decorator" design pattern.
-- **Project 3: set up associations.**
-- **Project 4: add basic UI.**
-- **Project 5: refactor your code.**
+-  [x] Project 3: set up associations.
+-  [x] Project 4: add basic UI.
+-  [x] Project 5: refactor your code.
 - **Project 6: preserved data.**
 - **Project 7: unit tests. **
 
