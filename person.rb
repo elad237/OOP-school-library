@@ -1,15 +1,28 @@
-class Person
-  attr_reader :id
+require_relative 'nameable'
+
+class Person < Nameable
   attr_accessor :name, :age
+  attr_reader :id, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
+    super()
+    @id = Random.rand(1..1000)
     @name = name
-    @parent_permission = parent_permission
     @age = age
+    @parent_permission = parent_permission
+    @rentals = []
+  end
+
+  def self.all_people
+    ObjectSpace.each_object(self).to_a
   end
 
   def can_use_services?
-    of_age? || @parent_permission == true
+    of_age? || @parent_permission
+  end
+
+  def correct_name
+    name
   end
 
   private
