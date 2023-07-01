@@ -99,8 +99,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Project 1: add Person, Student, and Teacher classes.**
-- **Project 2: use the "Decorator" design pattern.**
+- [x] Project 1: add Person, Student, and Teacher classes.
+- [x] Project 2: use the "Decorator" design pattern.
 - **Project 3: set up associations.**
 - **Project 4: add basic UI.**
 - **Project 5: refactor your code.**
