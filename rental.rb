@@ -1,23 +1,37 @@
 class Rental
   attr_accessor :date, :book, :person
 
-  @rentals = [] # Class instance variable to store all rentals
-
   def initialize(date, book, person)
     @date = date
     @book = book
     @person = person
+  end
+end
 
-    @book.rentals << self
-    @person.rentals << self
-    self.class.rentals << self
+class Book
+  attr_accessor :title, :rentals
+
+  def initialize(title)
+    @title = title
+    @rentals = []
   end
 
-  class << self
-    attr_reader :rentals
+  def add_rental(person, date)
+    rental = Rental.new(date, self, person)
+    @rentals << rental
+  end
+end
+
+class Person
+  attr_accessor :name, :rentals
+
+  def initialize(name)
+    @name = name
+    @rentals = []
   end
 
-  def self.rentals_for_person(person_id)
-    rentals.select { |rental| rental.person.id == person_id }
+  def add_rental(book, date)
+    rental = Rental.new(date, book, self)
+    @rentals << rental
   end
 end
