@@ -21,4 +21,3 @@ class Rental
     rentals.select { |rental| rental.person.id == person_id }
   end
 end
-
